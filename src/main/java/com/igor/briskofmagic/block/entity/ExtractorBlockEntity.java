@@ -203,10 +203,6 @@ public class ExtractorBlockEntity extends BlockEntity implements MenuProvider {
         boolean overflow = amount + 2 > 64;
         return input.is(Items.ENCHANTED_BOOK) && !overflow && (output.isEmpty() || output.is(ModItems.ENCHANT_SHARD));
     }
-///  TODO LEARN HOW THIS WORKS
-//    private Optional<RecipeHolder<ExtractorRecipe>> getCurrentRecipe() {
-//        return this.level.getRecipeManager().getRecipeFor(ModRecipes.EXTRACTOR_TYPE.get(), new ExtractorRecipeInput(itemHandler.getStackInSlot(INPUT_SLOT)), level);
-//    }
 
     private boolean acceptsFuel() {
         return itemHandler.getStackInSlot(FUEL_SLOT).is(ModItems.PHEON) || itemHandler.getStackInSlot(FUEL_SLOT).isEmpty() && isLit();

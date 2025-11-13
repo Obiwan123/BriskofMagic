@@ -24,6 +24,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(RecipeOutput recipeOutput) {
         List<ItemLike> PHEON_SMELTABLES = List.of(ModBlocks.PHEON_ORE, ModBlocks.PHEON_DS_ORE);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EMBEDDING_STATION.get())
+                .pattern("SCS")
+                .pattern("BLB")
+                .pattern("QQQ")
+                .define('Q', Items.QUARTZ_BLOCK)
+                .define('S', ModItems.ENCHANT_SHARD)
+                .define('C', ModItems.ENCHANT_CHUNK.get())
+                .define('L', Items.LAPIS_BLOCK)
+                .define('B', Items.BOOK)
+                .unlockedBy("has_detaching", has(ModItems.DETACHING_ENCHANT_CHUNK))
+                .save(recipeOutput, "briskofmagic:disenchant0");
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DISENCHANT.get())
+                .pattern("   ")
+                .pattern("CXB")
+                .pattern("QQQ")
+                .define('Q', Items.QUARTZ_BLOCK)
+                .define('C', ModItems.DETACHING_ENCHANT_CHUNK.get())
+                .define('X', Items.IRON_AXE)
+                .define('B', Items.BOOK)
+                .unlockedBy("has_detaching", has(ModItems.DETACHING_ENCHANT_CHUNK))
+                .save(recipeOutput, "briskofmagic:disenchant0");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EXTRACTOR.get())
                 .pattern("QQQ")
                 .pattern("Q Q")
