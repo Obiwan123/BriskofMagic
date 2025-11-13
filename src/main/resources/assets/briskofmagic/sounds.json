@@ -1,0 +1,8 @@
+{
+  "bard_poi_sound": {
+    "subtitle": "sounds.briskofmagic.bard_poi_sound",
+    "sounds": [
+      "briskofmagic:bard_poi_sound"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:gold_ingot"
+  },
+  "ingredient1": {
+    "item": "minecraft:gold_ingot"
+  },
+  "ingredient2": {
+    "item": "minecraft:gold_ingot"
+  },
+  "ingredient3": {
+    "item": "minecraft:gold_ingot"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:rerolling_enchant_chunk"
+  }
+}

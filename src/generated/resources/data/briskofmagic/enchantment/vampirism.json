@@ -1,0 +1,38 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.briskofmagic.vampirism"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "max_amplifier": 2.0,
+          "max_duration": 1.0,
+          "min_amplifier": 1.0,
+          "min_duration": 1.0,
+          "to_apply": "minecraft:instant_health"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/heal_exclusive",
+  "max_cost": {
+    "base": 44,
+    "per_level_above_first": 6
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "primary_items": "#c:tools/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#c:tools/melee_weapon",
+  "weight": 6
+}

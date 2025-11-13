@@ -1,0 +1,38 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.briskofmagic.ignite"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 2.0
+          }
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/aspect_exclusive",
+  "max_cost": {
+    "base": 36,
+    "per_level_above_first": 6
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 6
+  },
+  "primary_items": "#c:tools/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#c:tools/melee_weapon",
+  "weight": 5
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "briskofmagic:enchant_chunk"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "qHq",
+    "QEQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "briskofmagic:fuser"
+  }
+}

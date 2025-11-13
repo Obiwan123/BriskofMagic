@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.briskofmagic.blitz"
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/bowdraw_exclusive",
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 12
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 15
+  },
+  "primary_items": "#minecraft:enchantable/bow",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 3
+}

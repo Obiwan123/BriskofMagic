@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.briskofmagic.double_jump"
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/jump_exclusive",
+  "max_cost": {
+    "base": 44,
+    "per_level_above_first": 6
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 3
+}

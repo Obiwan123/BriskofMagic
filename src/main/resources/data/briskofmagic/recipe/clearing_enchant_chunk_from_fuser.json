@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:emerald"
+  },
+  "ingredient1": {
+    "item": "minecraft:emerald"
+  },
+  "ingredient2": {
+    "item": "minecraft:emerald"
+  },
+  "ingredient3": {
+    "item": "minecraft:emerald"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:clearing_enchant_chunk"
+  }
+}

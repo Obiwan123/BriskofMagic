@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "briskofmagic:force",
+    "briskofmagic:energy",
+    "briskofmagic:dragging",
+    "minecraft:power"
+  ]
+}

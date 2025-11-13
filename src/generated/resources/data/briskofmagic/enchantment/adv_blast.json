@@ -1,0 +1,63 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.briskofmagic.adv_blast"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.3,
+          "per_level_above_first": 0.3
+        },
+        "attribute": "minecraft:generic.explosion_knockback_resistance",
+        "id": "briskofmagic:adv_blast",
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 4.0,
+            "per_level_above_first": 4.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_explosion"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/protection_exclusive",
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 14
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 14
+  },
+  "primary_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 3
+}

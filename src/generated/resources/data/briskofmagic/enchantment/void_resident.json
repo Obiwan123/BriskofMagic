@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.briskofmagic.void_resident"
+  },
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 14
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 14
+  },
+  "primary_items": "#minecraft:enchantable/leg_armor",
+  "slots": [
+    "legs"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 3
+}

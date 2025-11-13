@@ -1,0 +1,12 @@
+{
+  "values": [
+    "briskofmagic:enchant_chunk",
+    "briskofmagic:detaching_enchant_chunk",
+    "briskofmagic:splitting_enchant_chunk",
+    "briskofmagic:rerolling_enchant_chunk",
+    "briskofmagic:copying_enchant_chunk",
+    "briskofmagic:upgrading_enchant_chunk",
+    "briskofmagic:clearing_enchant_chunk",
+    "briskofmagic:maxing_enchant_chunk"
+  ]
+}

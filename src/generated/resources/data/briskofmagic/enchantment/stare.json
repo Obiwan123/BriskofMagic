@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.briskofmagic.stare"
+  },
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 14
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 14
+  },
+  "primary_items": "#minecraft:enchantable/head_armor",
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 5
+}

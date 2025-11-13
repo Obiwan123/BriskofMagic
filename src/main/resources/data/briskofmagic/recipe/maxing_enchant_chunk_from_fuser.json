@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "ingredient1": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "ingredient2": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "ingredient3": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:maxing_enchant_chunk"
+  }
+}

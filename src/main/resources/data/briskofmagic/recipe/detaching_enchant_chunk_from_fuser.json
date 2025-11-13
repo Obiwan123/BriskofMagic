@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:copper_ingot"
+  },
+  "ingredient1": {
+    "item": "minecraft:copper_ingot"
+  },
+  "ingredient2": {
+    "item": "minecraft:copper_ingot"
+  },
+  "ingredient3": {
+    "item": "minecraft:copper_ingot"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:detaching_enchant_chunk"
+  }
+}

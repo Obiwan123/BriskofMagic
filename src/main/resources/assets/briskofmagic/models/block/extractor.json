@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "briskofmagic:block/extractor_side",
+    "front": "briskofmagic:block/extractor_front",
+    "side": "briskofmagic:block/extractor_side",
+    "particle": "briskofmagic:block/extractor_side"
+  }
+}

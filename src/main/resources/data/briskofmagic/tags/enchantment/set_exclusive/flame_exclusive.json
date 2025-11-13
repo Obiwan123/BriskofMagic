@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:flame",
+    "briskofmagic:burning",
+    "briskofmagic:fiery"
+  ]
+}

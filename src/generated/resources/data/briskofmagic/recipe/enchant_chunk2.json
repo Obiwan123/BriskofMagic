@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "briskofmagic:enchant_shard"
+    }
+  },
+  "pattern": [
+    "   ",
+    "EE ",
+    "EE "
+  ],
+  "result": {
+    "count": 1,
+    "id": "briskofmagic:enchant_chunk"
+  }
+}

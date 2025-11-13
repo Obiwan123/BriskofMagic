@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "briskofmagic:holding",
+    "briskofmagic:rusting",
+    "briskofmagic:affix_armor",
+    "briskofmagic:affix_armor_toughness",
+    "briskofmagic:affix_attack_damage",
+    "briskofmagic:affix_attack_speed",
+    "briskofmagic:affix_block_break_speed",
+    "briskofmagic:affix_block_interaction_range",
+    "briskofmagic:affix_entity_interaction_range",
+    "briskofmagic:affix_jump_strength",
+    "briskofmagic:affix_luck",
+    "briskofmagic:affix_max_health",
+    "briskofmagic:affix_mining_efficiency",
+    "briskofmagic:affix_movement_speed",
+    "briskofmagic:affix_water_movement_efficiency",
+    "briskofmagic:affix_oxygen_bonus"
+  ]
+}

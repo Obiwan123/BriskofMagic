@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.briskofmagic.lethality"
+  },
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.1,
+            "per_level_above_first": -0.1
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 14
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 14
+  },
+  "primary_items": "#c:tools/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#c:tools/melee_weapon",
+  "weight": 3
+}

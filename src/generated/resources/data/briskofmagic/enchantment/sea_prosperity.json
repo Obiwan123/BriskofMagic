@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.briskofmagic.sea_prosperity"
+  },
+  "effects": {
+    "minecraft:fishing_luck_bonus": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 3.0,
+            "per_level_above_first": 3.0
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/luck_exclusive",
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 14
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 14
+  },
+  "primary_items": "#minecraft:enchantable/fishing",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/fishing",
+  "weight": 5
+}

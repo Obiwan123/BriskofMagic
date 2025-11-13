@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.briskofmagic.affix_oxygen_bonus"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": 2.0,
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "id": "briskofmagic:affix_oxygen_bonus",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/affix_exclusive",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "primary_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

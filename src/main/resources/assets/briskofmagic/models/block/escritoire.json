@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "briskofmagic:block/escritoire_top",
+    "down": "briskofmagic:block/escritoire_side",
+    "north": "briskofmagic:block/escritoire_side",
+    "south": "briskofmagic:block/escritoire_side",
+    "east": "briskofmagic:block/escritoire_side",
+    "west": "briskofmagic:block/escritoire_side",
+    "particle": "briskofmagic:block/escritoire_side"
+  }
+}

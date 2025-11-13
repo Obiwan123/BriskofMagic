@@ -1,0 +1,11 @@
+// 1.21.1	2025-11-10T09:42:49.8027114	Item Models: briskofmagic
+a913eb6930da496a6ae842352e8b3c97237cfd1e assets/briskofmagic/models/item/clearing_enchant_chunk.json
+45add89c18b5daedfec5d78c4020235cb541795e assets/briskofmagic/models/item/copying_enchant_chunk.json
+484220e9f7b05dd8fe5dbb92f2a2477d2582ab7f assets/briskofmagic/models/item/detaching_enchant_chunk.json
+4791e8c7e0dbd14183fe1536f564367802ea9aa7 assets/briskofmagic/models/item/enchant_chunk.json
+5f3ff6bdef7e46f73fcb7c61dbd072ff0cca0d93 assets/briskofmagic/models/item/enchant_shard.json
+726f1ff08b063ffb10d4c0e7cc675854b0fc2ca7 assets/briskofmagic/models/item/maxing_enchant_chunk.json
+0cc4860b864877fb91b5c6e4c94c2e005fdcc5bf assets/briskofmagic/models/item/pheon.json
+42a0b87478a911a34bbd636e06faff6fd32a48a5 assets/briskofmagic/models/item/rerolling_enchant_chunk.json
+45e7f5705a65d607a8f4082990bf1745cd69cd8f assets/briskofmagic/models/item/splitting_enchant_chunk.json
+12ef96e3d63dfa06c48234b21027a4fad613f7fa assets/briskofmagic/models/item/upgrading_enchant_chunk.json

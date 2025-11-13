@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.briskofmagic.burning"
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 40.0
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/flame_exclusive",
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 0
+  },
+  "primary_items": "#minecraft:enchantable/bow",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 5
+}

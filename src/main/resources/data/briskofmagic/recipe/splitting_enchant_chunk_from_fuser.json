@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredient1": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredient2": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredient3": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:splitting_enchant_chunk"
+  }
+}

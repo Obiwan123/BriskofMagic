@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.briskofmagic.affix_attack_speed"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": 0.3,
+        "attribute": "minecraft:generic.attack_speed",
+        "id": "briskofmagic:affix_attack_speed",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/affix_exclusive",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "primary_items": "#c:tools/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#c:tools/melee_weapon",
+  "weight": 1
+}

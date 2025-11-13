@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:diamond"
+  },
+  "ingredient1": {
+    "item": "minecraft:diamond"
+  },
+  "ingredient2": {
+    "item": "minecraft:diamond"
+  },
+  "ingredient3": {
+    "item": "minecraft:diamond"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:upgrading_enchant_chunk"
+  }
+}

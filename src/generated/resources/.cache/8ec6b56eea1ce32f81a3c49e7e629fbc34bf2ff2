@@ -1,0 +1,4 @@
+// 1.21.1	2025-11-13T18:53:42.8838885	Tags for minecraft:block mod id briskofmagic
+aa0b1a5c5e4db1ba1a7c00c6af763bdbdf558497 data/minecraft/tags/block/mineable/pickaxe.json
+fa2e219f2013b51bd5cda354b07b6fdddd414e72 data/minecraft/tags/block/needs_diamond_tool.json
+01a87a469ecd1afab37c8a5813bca551b32468e6 data/minecraft/tags/block/needs_iron_tool.json

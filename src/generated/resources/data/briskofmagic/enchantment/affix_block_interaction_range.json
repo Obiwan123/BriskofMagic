@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.briskofmagic.affix_block_interaction_range"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": 1.0,
+        "attribute": "minecraft:player.block_interaction_range",
+        "id": "briskofmagic:affix_block_interaction_range",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/affix_exclusive",
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "primary_items": "#c:tools",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#c:tools",
+  "weight": 1
+}

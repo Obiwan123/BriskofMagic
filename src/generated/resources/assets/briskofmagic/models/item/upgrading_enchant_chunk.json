@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "briskofmagic:item/upgrading_enchant_chunk"
+  }
+}

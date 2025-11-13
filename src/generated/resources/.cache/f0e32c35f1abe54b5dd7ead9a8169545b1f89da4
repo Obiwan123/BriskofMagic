@@ -1,0 +1,15 @@
+// 1.21.1	2025-11-13T18:53:42.8848859	Block States: briskofmagic
+e7ba3ba817c8843e62899e0d05b7e1b9f5eb4ffb assets/briskofmagic/blockstates/pheon_ds_ore.json
+0ff1baf45e3940ff944d6ded0fe8da3743c77e8b assets/briskofmagic/blockstates/pheon_end_ore.json
+34305e55e59092b016a620ad20d374ee0e4f9bd0 assets/briskofmagic/blockstates/pheon_ore.json
+00d52dfce021c4b2093459bc208608ae7a2e6cd5 assets/briskofmagic/models/block/pheon_ds_ore.json
+eef820598c9ad9a9136b228cb23ecc3bf00beb44 assets/briskofmagic/models/block/pheon_end_ore.json
+25aec886ac9bb65adb332efd47739053dc46b1ec assets/briskofmagic/models/block/pheon_ore.json
+0cbd22555607cfd48828d72b5b8ccda0c921f49f assets/briskofmagic/models/item/disenchant.json
+2db778da9a9ec5b8be84d43dffd833467d0c87c7 assets/briskofmagic/models/item/embedding_station.json
+e1fc673e2ec4c02f50ea33a2d9d4ba366d944631 assets/briskofmagic/models/item/escritoire.json
+b8ad6ab3258a2f10973d5b1ea4bb7d8a5c8522e7 assets/briskofmagic/models/item/extractor.json
+75d562dbe55cba71e10cc13c1ca6b73ccddd2463 assets/briskofmagic/models/item/fuser.json
+dd6f8af9535d0c716bbce55b816c9d10b02b6573 assets/briskofmagic/models/item/pheon_ds_ore.json
+4f6890ac125814f88d87f5c3e9cd66c9257cfcd0 assets/briskofmagic/models/item/pheon_end_ore.json
+5095f25c4e2565ce6cbbc783193fa5afda466e8f assets/briskofmagic/models/item/pheon_ore.json

@@ -1,0 +1,21 @@
+{
+  "type": "briskofmagic:fuser",
+  "ingredient0": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "ingredient1": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "ingredient2": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "ingredient3": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "ingredient4": {
+    "item": "briskofmagic:enchant_chunk"
+  },
+  "result": {
+    "id": "briskofmagic:copying_enchant_chunk"
+  }
+}

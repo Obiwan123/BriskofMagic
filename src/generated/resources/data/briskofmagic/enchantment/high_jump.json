@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.briskofmagic.high_jump"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2.0,
+          "per_level_above_first": 2.0
+        },
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "id": "briskofmagic:high_jump",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/jump_exclusive",
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 14
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 14
+  },
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 3
+}

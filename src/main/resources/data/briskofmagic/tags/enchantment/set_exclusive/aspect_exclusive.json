@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:fire_aspect",
+    "briskofmagic:ignite",
+    "briskofmagic:ablaze",
+    "briskofmagic:water_aspect"
+  ]
+}
