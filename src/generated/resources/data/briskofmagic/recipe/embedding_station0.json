@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "briskofmagic:enchant_chunk"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "S": {
+      "item": "briskofmagic:enchant_shard"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "BLB",
+    "QQQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "briskofmagic:embedding_station"
+  }
+}

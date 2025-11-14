@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "briskofmagic:detaching_enchant_chunk"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    "BIC",
+    "QOQ",
+    "QOQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "briskofmagic:disenchant"
+  }
+}
