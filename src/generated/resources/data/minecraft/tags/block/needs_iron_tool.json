@@ -1,6 +1,7 @@
 {
   "values": [
     "briskofmagic:extractor",
-    "briskofmagic:fuser"
+    "briskofmagic:fuser",
+    "briskofmagic:disenchant"
   ]
 }

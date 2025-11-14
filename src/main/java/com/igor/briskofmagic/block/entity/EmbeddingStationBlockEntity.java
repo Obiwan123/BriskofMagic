@@ -52,6 +52,16 @@ public class EmbeddingStationBlockEntity extends BlockEntity implements MenuProv
     private int progress = 0;
     private int maxProgress = 300;
 
+
+    private float rotation;
+    public float getRenderingRotation() {
+        rotation += 0.55f;
+        if (rotation >= 360) {
+            rotation = 0;
+        }
+        return rotation;
+    }
+
     public EmbeddingStationBlockEntity(BlockPos pos, BlockState blockState) {
         super(ModBlockEntities.EMBEDDING_STATION_BE.get(), pos, blockState);
         data = new ContainerData() {

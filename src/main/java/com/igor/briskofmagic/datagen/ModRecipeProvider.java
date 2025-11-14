@@ -34,15 +34,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('L', Items.LAPIS_BLOCK)
                 .define('B', Items.BOOK)
                 .unlockedBy("has_detaching", has(ModItems.DETACHING_ENCHANT_CHUNK))
-                .save(recipeOutput, "briskofmagic:disenchant0");
+                .save(recipeOutput, "briskofmagic:embedding_station0");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DISENCHANT.get())
-                .pattern("   ")
-                .pattern("CXB")
-                .pattern("QQQ")
+                .pattern("BIC")
+                .pattern("QOQ")
+                .pattern("QOQ")
                 .define('Q', Items.QUARTZ_BLOCK)
                 .define('C', ModItems.DETACHING_ENCHANT_CHUNK.get())
-                .define('X', Items.IRON_AXE)
+                .define('O', Items.OBSIDIAN)
                 .define('B', Items.BOOK)
+                .define('I', Items.IRON_INGOT)
                 .unlockedBy("has_detaching", has(ModItems.DETACHING_ENCHANT_CHUNK))
                 .save(recipeOutput, "briskofmagic:disenchant0");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EXTRACTOR.get())

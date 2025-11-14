@@ -1,6 +1,7 @@
 package com.igor.briskofmagic;
 
 import com.igor.briskofmagic.block.entity.ModBlockEntities;
+import com.igor.briskofmagic.block.entity.renderer.EmbeddingStationBlockEntityRenderer;
 import com.igor.briskofmagic.block.entity.renderer.FuserBlockEntityRenderer;
 import com.igor.briskofmagic.item.ModItemProperties;
 import com.igor.briskofmagic.particle.ModParticles;
@@ -43,6 +44,7 @@ public class BriskofMagicClient {
     @SubscribeEvent
     public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.FUSER_BE.get(), FuserBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.EMBEDDING_STATION_BE.get(), EmbeddingStationBlockEntityRenderer::new);
     }
 
     @SubscribeEvent

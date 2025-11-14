@@ -23,7 +23,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PHEON_DS_ORE.get())
                 .add(ModBlocks.PHEON_END_ORE.get())
                 .add(ModBlocks.EXTRACTOR.get())
-                .add(ModBlocks.FUSER.get());
+                .add(ModBlocks.FUSER.get())
+                .add(ModBlocks.DISENCHANT.get())
+                .add(ModBlocks.EMBEDDING_STATION.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.PHEON_ORE.get())
@@ -32,6 +34,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.EXTRACTOR.get())
-                .add(ModBlocks.FUSER.get());
+                .add(ModBlocks.FUSER.get())
+                .add(ModBlocks.DISENCHANT.get())
+                .add(ModBlocks.EMBEDDING_STATION.get());
+
     }
 }

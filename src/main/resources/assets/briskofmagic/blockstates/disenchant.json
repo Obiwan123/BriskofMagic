@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "briskofmagic:block/disenchant" }
+    "facing=north": { "model": "briskofmagic:block/disenchant" },
+    "facing=south": { "model": "briskofmagic:block/disenchant", "y": 180 },
+    "facing=west":  { "model": "briskofmagic:block/disenchant", "y": 270 },
+    "facing=east":  { "model": "briskofmagic:block/disenchant", "y": 90 }
   }
 }
