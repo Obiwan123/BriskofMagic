@@ -1,6 +1,5 @@
 {
   "variants": {
-    "lit=false": { "model": "briskofmagic:block/fuser" },
-    "lit=true": { "model": "briskofmagic:block/fuser" }
+    "": { "model": "briskofmagic:block/fuser" }
   }
 }

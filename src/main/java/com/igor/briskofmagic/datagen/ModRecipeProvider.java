@@ -54,13 +54,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_quartz", has(Items.QUARTZ))
                 .save(recipeOutput, "briskofmagic:extractor0");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FUSER.get())
-                .pattern("qHq")
-                .pattern("QEQ")
+                .pattern(" E ")
+                .pattern("ABA")
                 .pattern("QQQ")
                 .define('Q', Items.QUARTZ_BLOCK)
-                .define('q', Items.QUARTZ)
+                .define('B', Items.AMETHYST_BLOCK)
+                .define('A', Items.AMETHYST_SHARD)
                 .define('E', ModItems.ENCHANT_CHUNK.get())
-                .define('H', Items.HOPPER)
                 .unlockedBy("has_quartz", has(Items.QUARTZ))
                 .save(recipeOutput, "briskofmagic:fuser0");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ESCRITOIRE.get())

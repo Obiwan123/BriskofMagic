@@ -44,14 +44,14 @@ public class FuserBlockEntityRenderer implements BlockEntityRenderer<FuserBlockE
             showItem(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, output);
         }
         poseStack.pushPose();
-        poseStack.translate(0.09f, 0.94f, 0.09f);
+        poseStack.translate(0.09f, 0.74f, 0.09f);
         showSmall(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, slot1);
-        poseStack.translate(0.91f, 0.94f, 0.09f);
+        poseStack.translate(0.91f, 0.74f, 0.09f);
         showSmall(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, slot2);
-        poseStack.translate(0.09f, 0.94f, 0.91f);
+        poseStack.translate(0.09f, 0.74f, 0.91f);
         showSmall(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, slot3);
-        poseStack.translate(0.91f, 0.94f, 0.91f);
-        poseStack.scale(0.25f, 0.25f, 0.25f);
+        poseStack.translate(0.91f, 0.74f, 0.91f);
+        poseStack.scale(0.35f, 0.35f, 0.35f);
         poseStack.mulPose(Axis.YP.rotationDegrees(fuserBlockEntity.getRenderingRotation()));
         itemRenderer.renderStatic(slot4, ItemDisplayContext.FIXED, getLightLevel(fuserBlockEntity.getLevel(),
                 fuserBlockEntity.getBlockPos()), OverlayTexture.NO_OVERLAY, poseStack, multiBufferSource, fuserBlockEntity.getLevel(), 1);
@@ -60,7 +60,7 @@ public class FuserBlockEntityRenderer implements BlockEntityRenderer<FuserBlockE
     }
 
     private void showSmall(FuserBlockEntity fuserBlockEntity, PoseStack poseStack, MultiBufferSource multiBufferSource, ItemRenderer itemRenderer, ItemStack slot1) {
-        poseStack.scale(0.25f, 0.25f, 0.25f);
+        poseStack.scale(0.35f, 0.35f, 0.35f);
         poseStack.mulPose(Axis.YP.rotationDegrees(fuserBlockEntity.getRenderingRotation()));
         itemRenderer.renderStatic(slot1, ItemDisplayContext.FIXED, getLightLevel(fuserBlockEntity.getLevel(),
                 fuserBlockEntity.getBlockPos()), OverlayTexture.NO_OVERLAY, poseStack, multiBufferSource, fuserBlockEntity.getLevel(), 1);

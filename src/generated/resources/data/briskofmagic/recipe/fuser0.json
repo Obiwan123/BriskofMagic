@@ -2,22 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:amethyst_block"
+    },
     "E": {
       "item": "briskofmagic:enchant_chunk"
     },
-    "H": {
-      "item": "minecraft:hopper"
-    },
     "Q": {
       "item": "minecraft:quartz_block"
-    },
-    "q": {
-      "item": "minecraft:quartz"
     }
   },
   "pattern": [
-    "qHq",
-    "QEQ",
+    " E ",
+    "ABA",
     "QQQ"
   ],
   "result": {

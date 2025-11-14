@@ -40,13 +40,10 @@ import org.jetbrains.annotations.Nullable;
 public class FuserBlock extends BaseEntityBlock {
     public static final MapCodec<FuserBlock> CODEC = simpleCodec(FuserBlock::new);
 
-    public static final BooleanProperty LIT = BlockStateProperties.LIT;
-
     public static final VoxelShape SHAPE = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 8.0D, 16.0D);
 
     public FuserBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any().setValue(LIT, false));
     }
 
     @Override
@@ -104,19 +101,5 @@ public class FuserBlock extends BaseEntityBlock {
                 (level1, blockPos, blockState, blockEntity) -> blockEntity.tick(level, blockPos, blockState, blockEntity));
     }
 
-    @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(LIT);
-    }
-
-
-    @Override
-    public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
-        if (state.getValue(LIT)) {
-            double d0 = (double)pos.getX() + (double)0.5F;
-            double d1 = pos.getY()+1f;
-            double d2 = (double)pos.getZ() + (double)0.5F;
-        }
-    }
 
 }

@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-14T22:36:33.6079327	Recipes
+// 1.21.1	2025-11-14T23:54:54.1665962	Recipes
 15aa7a04fe18c043e9f0af8fb83d31bd183986c1 data/briskofmagic/advancement/recipes/misc/disenchant0.json
 f7c25c3b61bc75d94b9319e18be4fd3788ab2568 data/briskofmagic/advancement/recipes/misc/embedding_station0.json
 51fa031cb4b74bc38a506448ef85e52c9940fbd2 data/briskofmagic/advancement/recipes/misc/enchant_chunk0.json
@@ -22,7 +22,7 @@ a4fc5c017e85bedf800bf60d4436a9c3aaafb353 data/briskofmagic/recipe/enchant_chunk2
 7d4f907879d53dfa3a3f1461d248b2f2691181d3 data/briskofmagic/recipe/escritoire0.json
 4e6bc7e5e17ab7deac8855e0b58ec96fa3cb5e0e data/briskofmagic/recipe/escritoire1.json
 5eb663d3858dc5f2ea0c2a51e2494b8d95e9ed72 data/briskofmagic/recipe/extractor0.json
-d3b53bc8e4d5c0213372b28cd6aa64a7ceb4739c data/briskofmagic/recipe/fuser0.json
+3d4bc3b16bb0cad163a474baede3786a612a5cb3 data/briskofmagic/recipe/fuser0.json
 132fa3a15ac98e91b9537299a1c8e696c3a63803 data/briskofmagic/recipe/pheon_from_blasting_pheon_ds_ore.json
 7d7d5a0c5939270a9d7eb4246e8b1c0e47fa43a6 data/briskofmagic/recipe/pheon_from_blasting_pheon_ore.json
 706369d265e9dea66fda13edcd78f3b8eddb205e data/briskofmagic/recipe/pheon_from_smelting_pheon_ds_ore.json
