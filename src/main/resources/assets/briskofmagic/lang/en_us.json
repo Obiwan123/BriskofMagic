@@ -176,5 +176,7 @@
   "enchantment.briskofmagic.toxic": "Toxic",
   "enchantment.briskofmagic.toxic.shift": "§7Toxic§r §8Version of Thorns that poison enemies§r",
   "enchantment.briskofmagic.living_torch": "Living Torch",
-  "enchantment.briskofmagic.living_torch.shift": "§7Living Torch§r §8Version of Thorns that set enemies on fire§r"
+  "enchantment.briskofmagic.living_torch.shift": "§7Living Torch§r §8Version of Thorns that set enemies on fire§r",
+  "enchantment.briskofmagic.electrocute": "Electrocute",
+  "enchantment.briskofmagic.electrocute.shift": "§7Electrocute§r §83 consecutive attacks on the same target spawn a thunderbolt§r"
 }

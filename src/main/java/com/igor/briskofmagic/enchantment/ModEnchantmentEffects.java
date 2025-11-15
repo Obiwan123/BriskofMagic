@@ -21,6 +21,7 @@ public class ModEnchantmentEffects {
     public static final Supplier<MapCodec<? extends EnchantmentEntityEffect>> BUFFER = ENTITY_ENCHANTMENT_EFFECTS.register("buffer", () -> BufferEnchantmentEffect.CODEC);
     public static final Supplier<MapCodec<? extends EnchantmentEntityEffect>> ABLAZE = ENTITY_ENCHANTMENT_EFFECTS.register("ablaze", () -> AblazeEnchantmentEffect.CODEC);
     public static final Supplier<MapCodec<? extends EnchantmentEntityEffect>> FIERY = ENTITY_ENCHANTMENT_EFFECTS.register("fiery", () -> FieryEnchantmentEffect.CODEC);
+    public static final Supplier<MapCodec<? extends EnchantmentEntityEffect>> ELECTROCUTE = ENTITY_ENCHANTMENT_EFFECTS.register("electrocute", () -> ElectrocuteEnchantmentEffect.CODEC);
 
 
     public static void register(IEventBus bus) {

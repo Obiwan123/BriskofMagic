@@ -14,7 +14,7 @@ import java.util.Locale;
 @EventBusSubscriber(modid = "briskofmagic")
 public class EnchantmentHintTooltipEvent {
 
-    private static final List<String> ENCHANT_KEYS = List.of("ferocity", "living_torch", "toxic", "magic_siphon", "sea_prosperity", "magnetic", "resolve", "viper", "copy", "lifesteal", "smelter", "vein_mining", "adept", "extent", "deftness", "stare", "lethality", "high_jump", "double_jump", "rusting", "clarity", "knowledge", "venomous", "harmful", "dullness", "frostbite", "vampirism", "buffer", "armor_penetration", "rapid_slash", "ignite", "ablaze", "burning", "fiery", "conflagration", "water_aspect", "sadism", "brutality", "blitz", "dragging", "energy", "force", "volley", "fleet", "vitae", "berserker", "adv_protection", "adv_projectile", "adv_blast", "adv_fire", "rage", "holding", "abide", "stepper");
+    private static final List<String> ENCHANT_KEYS = List.of("ferocity", "electrocute", "living_torch", "toxic", "magic_siphon", "sea_prosperity", "magnetic", "resolve", "viper", "copy", "lifesteal", "smelter", "vein_mining", "adept", "extent", "deftness", "stare", "lethality", "high_jump", "double_jump", "rusting", "clarity", "knowledge", "venomous", "harmful", "dullness", "frostbite", "vampirism", "buffer", "armor_penetration", "rapid_slash", "ignite", "ablaze", "burning", "fiery", "conflagration", "water_aspect", "sadism", "brutality", "blitz", "dragging", "energy", "force", "volley", "fleet", "vitae", "berserker", "adv_protection", "adv_projectile", "adv_blast", "adv_fire", "rage", "holding", "abide", "stepper");
     private static final List<String> BLOCKS_KEYS = List.of("fuser", "extractor","embedding_station","disenchant");
 
     @SubscribeEvent

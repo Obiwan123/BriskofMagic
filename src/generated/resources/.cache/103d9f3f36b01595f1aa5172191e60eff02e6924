@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-13T18:53:42.8858835	Registries
+// 1.21.1	2025-11-15T11:38:07.431411	Registries
 fcb47aebce438f18e35ad4a6cfa4597ee47d9bf3 data/briskofmagic/enchantment/abide.json
 c771ba117bc97f5e4a5ee65ca3fa0f96e89faab0 data/briskofmagic/enchantment/ablaze.json
 eb532af56b71ce7fa999b834915da29ebed1ce6e data/briskofmagic/enchantment/adept.json
@@ -33,6 +33,7 @@ a8734df44a75334f3588f7b5103fdbaaaab174ee data/briskofmagic/enchantment/deftness.
 26fd92ba1f3976d1324c9b930a9bb8e958658bd5 data/briskofmagic/enchantment/double_jump.json
 8b4079eb60458bb2705bfed8b9e9c9c32a377883 data/briskofmagic/enchantment/dragging.json
 55507e6a8502f76a907463bee5d9cc24117e9c79 data/briskofmagic/enchantment/dullness.json
+30ae993a9c7bc22fbebefbe3d404b6c60051907e data/briskofmagic/enchantment/electrocute.json
 777a4dbef32114a182b49550f79a3e1f8c0b45af data/briskofmagic/enchantment/energy.json
 7e824229b53f817b8cc3dfa87c6b9333c882671f data/briskofmagic/enchantment/extent.json
 13b4f72f53546c289cfd9aa7ca50e62a4060af0b data/briskofmagic/enchantment/ferocity.json
