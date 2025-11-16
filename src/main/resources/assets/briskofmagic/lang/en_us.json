@@ -178,5 +178,9 @@
   "enchantment.briskofmagic.living_torch": "Living Torch",
   "enchantment.briskofmagic.living_torch.shift": "§7Living Torch§r §8Version of Thorns that set enemies on fire§r",
   "enchantment.briskofmagic.electrocute": "Electrocute",
-  "enchantment.briskofmagic.electrocute.shift": "§7Electrocute§r §83 consecutive attacks on the same target spawn a thunderbolt§r"
+  "enchantment.briskofmagic.electrocute.shift": "§7Electrocute§r §83 consecutive attacks on the same target spawn a thunderbolt§r",
+  "enchantment.briskofmagic.fertilizer": "Fertilizer",
+  "enchantment.briskofmagic.fertilizer.shift": "§7Fertilizer§r §8Shift+Rightclick to bonemeal§r",
+  "enchantment.briskofmagic.pull": "Pull",
+  "enchantment.briskofmagic.pull.shift": "§7Pull§r §8Pulls hit target§r"
 }

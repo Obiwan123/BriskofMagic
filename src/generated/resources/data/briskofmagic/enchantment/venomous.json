@@ -6,7 +6,7 @@
   "effects": {
     "minecraft:post_attack": [
       {
-        "affected": "attacker",
+        "affected": "victim",
         "effect": {
           "type": "minecraft:apply_mob_effect",
           "max_amplifier": {

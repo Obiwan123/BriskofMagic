@@ -1,4 +1,4 @@
-//package com.igor.briskofmagic.events;
+package com.igor.briskofmagic.events;//package com.igor.briskofmagic.events;
 //
 //import com.igor.briskofmagic.BriskofMagic;
 //import com.igor.briskofmagic.enchantment.ModEnchantments;

@@ -26,13 +26,13 @@
   },
   "exclusive_set": "#briskofmagic:set_exclusive/damage_exclusive",
   "max_cost": {
-    "base": 65,
-    "per_level_above_first": 10
+    "base": 44,
+    "per_level_above_first": 6
   },
   "max_level": 5,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 10
+    "base": 8,
+    "per_level_above_first": 6
   },
   "primary_items": "#c:tools/melee_weapon",
   "slots": [

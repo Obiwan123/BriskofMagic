@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.briskofmagic.pull"
+  },
+  "exclusive_set": "#briskofmagic:set_exclusive/knockback_exclusive",
+  "max_cost": {
+    "base": 44,
+    "per_level_above_first": 6
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "primary_items": "#minecraft:enchantable/bow",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 6
+}

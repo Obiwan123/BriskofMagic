@@ -1,6 +1,7 @@
 package com.igor.briskofmagic.events;
 
 import com.igor.briskofmagic.BriskofMagic;
+import com.igor.briskofmagic.item.ModItems;
 import net.minecraft.core.Holder;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -12,10 +13,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.AnvilUpdateEvent;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 @EventBusSubscriber(modid = BriskofMagic.MODID)
 public class onAnvilUse {
@@ -25,7 +23,23 @@ public class onAnvilUse {
         ItemStack left = event.getLeft();
         ItemStack right = event.getRight();
 
-        if (left.isEmpty() || right.isEmpty()) return;
+        if (right.is(ModItems.CLEARING_ENCHANT_CHUNK)) {
+            if (left.isDamageableItem() || left.isEnchanted()) {
+                ItemStack output = new ItemStack(left.getItem());
+                float dmg = left.getDamageValue();
+                ItemEnchantments enchants = EnchantmentHelper.getEnchantmentsForCrafting(left);
+                if (!(enchants.isEmpty())) {
+                    List<Map.Entry<Holder<Enchantment>, Integer>> entries = new ArrayList<>(enchants.entrySet());
+                    for (Map.Entry<Holder<Enchantment>, Integer> entry : entries) {
+                        output.enchant(entry.getKey(), entry.getValue());
+                    }
+                }
+                output.setDamageValue((int) dmg);
+                event.setOutput(output);
+                event.setCost(1);
+            }
+        }
+        if (left.isEnchanted() && right.isEnchanted()) {
 
         ItemStack output = left.copy();
 
@@ -94,5 +108,6 @@ public class onAnvilUse {
         event.setOutput(output);
         event.setCost(totalCost);
         event.setMaterialCost(1);
+    }
     }
 }
