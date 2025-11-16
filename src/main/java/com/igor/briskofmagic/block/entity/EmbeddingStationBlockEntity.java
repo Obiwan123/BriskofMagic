@@ -214,16 +214,13 @@ public class EmbeddingStationBlockEntity extends BlockEntity implements MenuProv
         ItemStack input = inventory.getStackInSlot(INPUT_ENCHANT);
         ItemStack chunk = inventory.getStackInSlot(INPUT_CHUNK);
 
-        // Pobierz wszystkie enchanty z książki
         ItemEnchantments enchants = EnchantmentHelper.getEnchantmentsForCrafting(input);
 
-        // Wyciągnij pierwszy enchant (możesz zrobić losowy, jeśli chcesz)
         List<Map.Entry<Holder<Enchantment>, Integer>> entries = new ArrayList<>(enchants.entrySet());
         var entry = entries.get(level.random.nextInt(entries.size()));
         Holder<Enchantment> enchHolder = entry.getKey();
         int enchLevel = entry.getValue();
 
-        // Stwórz książkę WYJŚCIOWĄ z tym jednym enchantem
         ItemStack result = new ItemStack(Items.ENCHANTED_BOOK);
 
         if (enchLevel+1<=10){
@@ -283,11 +280,9 @@ public class EmbeddingStationBlockEntity extends BlockEntity implements MenuProv
         int enchLevel = entry.getValue();
 
         ItemStack result = new ItemStack(Items.ENCHANTED_BOOK);
-        EnchantmentHelper.updateEnchantments(result, mutable -> mutable.set(enchHolder, enchLevel));
 
         if(enchLevel - 1 > 0){
-            EnchantmentHelper.updateEnchantments(input, mutable -> mutable.set(enchHolder, enchLevel-1));
-            inventory.setStackInSlot(INPUT_ENCHANT, input);
+            EnchantmentHelper.updateEnchantments(result, mutable -> mutable.set(enchHolder, enchLevel-1));
         }
 
         inventory.setStackInSlot(OUTPUT_ENCHANT, result);
