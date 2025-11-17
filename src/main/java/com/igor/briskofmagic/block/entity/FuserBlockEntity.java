@@ -153,7 +153,6 @@ public class FuserBlockEntity extends BlockEntity implements MenuProvider {
     }
 
     public void tick(Level level, BlockPos blockPos, BlockState blockState, FuserBlockEntity blockEntity) {
-        boolean isLit = blockEntity.isLit();
 
         if(hasRecipe()){
             progress++;
@@ -164,10 +163,6 @@ public class FuserBlockEntity extends BlockEntity implements MenuProvider {
             }
         } else {
             resetProgress();
-        }
-
-        if (isLit != blockEntity.isLit()) {
-            level.setBlock(blockPos, blockState.setValue(ExtractorBlock.LIT, blockEntity.isLit()), 3);
         }
 
         setChanged(level, blockPos, blockState);
@@ -225,10 +220,6 @@ public class FuserBlockEntity extends BlockEntity implements MenuProvider {
     private void resetProgress() {
         this.progress = 0;
         this.maxProgress = 100;
-    }
-
-    private boolean isLit() {
-        return this.progress>0;
     }
 
 

@@ -35,14 +35,12 @@ public class FuserBlockEntityRenderer implements BlockEntityRenderer<FuserBlockE
         ItemStack slot2 = fuserBlockEntity.itemHandler.getStackInSlot(1);
         ItemStack slot3 = fuserBlockEntity.itemHandler.getStackInSlot(2);
         ItemStack slot4 = fuserBlockEntity.itemHandler.getStackInSlot(3);
-        ItemStack slot5 = fuserBlockEntity.itemHandler.getStackInSlot(4);
+
         ItemStack output = fuserBlockEntity.itemHandler.getStackInSlot(5);
 
-        if(output.isEmpty()){
-            showItem(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, slot5);
-        } else {
-            showItem(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, output);
-        }
+
+        showItem(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, output);
+
         poseStack.pushPose();
         poseStack.translate(0.09f, 0.74f, 0.09f);
         showSmall(fuserBlockEntity, poseStack, multiBufferSource, itemRenderer, slot1);

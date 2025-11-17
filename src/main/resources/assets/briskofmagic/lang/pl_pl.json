@@ -32,6 +32,17 @@
   "tooltip.maxing_enchant_chunk": "Naciśnij §oshift§r po więcej informacji",
   "tooltip.maxing_enchant_chunk.shift": "Esencja magii obtoczona w odłamkach netherytu. Zwiększa poziom zaklęcia o 1 do X.",
 
+  "item.minecraft.potion.effect.proficiency_potion": "Mikstura Znajomości",
+  "item.minecraft.splash_potion.effect.proficiency_potion": "Splash Potion of Proficiency",
+  "item.minecraft.lingering_potion.effect.proficiency_potion": "Lingering Potion of Proficiency Potion",
+  "item.minecraft.potion.effect.proficiency_potion_glowstone": "Mikstura Znajomości",
+  "item.minecraft.splash_potion.effect.proficiency_potion_glowstone": "Splash Potion of Proficiency",
+  "item.minecraft.lingering_potion.effect.proficiency_potion_glowstone": "Lingering Potion of Proficiency",
+  "item.minecraft.potion.effect.proficiency_potion_redstone": "Mikstura Znajomości",
+  "item.minecraft.splash_potion.effect.proficiency_potion_redstone": "Splash Potion of Proficiency",
+  "item.minecraft.lingering_potion.effect.proficiency_potion_redstone": "Lingering Potion of Proficiency",
+  "effect.briskofmagic.proficiency": "Znajomość",
+
   "block.briskofmagic.pheon_ore": "Ruda Pheon'a",
   "block.briskofmagic.pheon_ds_ore": "Łupkowe Złoże Pheon'a",
   "block.briskofmagic.pheon_end_ore": "Endstone Pheon Ore",
@@ -178,5 +189,9 @@
   "enchantment.briskofmagic.living_torch": "Żywa Pochodnia",
   "enchantment.briskofmagic.living_torch.shift": "§7Żywa Pochodnia§r §8Wersja Cierni, która podpala atakujących§r",
   "enchantment.briskofmagic.electrocute": "Elektryzacja",
-  "enchantment.briskofmagic.electrocute.shift": "§7Elektryzacja§r §83 postępujące po sobie ataki przywoływują piorun§r"
+  "enchantment.briskofmagic.electrocute.shift": "§7Elektryzacja§r §83 postępujące po sobie ataki przywoływują piorun§r",
+  "enchantment.briskofmagic.fertilizer": "Nawóz",
+  "enchantment.briskofmagic.fertilizer.shift": "§7Nawóz§r §8Shift+PPM aby przyspieszyć rozwój rośliny§r",
+  "enchantment.briskofmagic.pull": "Przyciągnięcie",
+  "enchantment.briskofmagic.pull.shift": "§7Przyciągnięcie§r §8Trafienie przyciąga cel§r"
 }

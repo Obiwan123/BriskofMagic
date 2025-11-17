@@ -32,6 +32,17 @@
   "tooltip.maxing_enchant_chunk": "Press §oshift§r for more info",
   "tooltip.maxing_enchant_chunk.shift": "Essence of magic infused with netherite. Upgrades enchantment level up to X.",
 
+  "item.minecraft.potion.effect.proficiency_potion": "Proficiency Potion",
+  "item.minecraft.splash_potion.effect.proficiency_potion": "Splash Potion of Proficiency",
+  "item.minecraft.lingering_potion.effect.proficiency_potion": "Lingering Potion of Proficiency Potion",
+  "item.minecraft.potion.effect.proficiency_potion_glowstone": "Proficiency Potion",
+  "item.minecraft.splash_potion.effect.proficiency_potion_glowstone": "Splash Potion of Proficiency",
+  "item.minecraft.lingering_potion.effect.proficiency_potion_glowstone": "Lingering Potion of Proficiency",
+  "item.minecraft.potion.effect.proficiency_potion_redstone": "Proficiency Potion",
+  "item.minecraft.splash_potion.effect.proficiency_potion_redstone": "Splash Potion of Proficiency",
+  "item.minecraft.lingering_potion.effect.proficiency_potion_redstone": "Lingering Potion of Proficiency",
+  "effect.briskofmagic.proficiency": "Proficiency",
+
   "block.briskofmagic.pheon_ore": "Pheon Ore",
   "block.briskofmagic.pheon_ds_ore": "Deepslate Pheon Ore",
   "block.briskofmagic.pheon_end_ore": "Endstone Pheon Ore",

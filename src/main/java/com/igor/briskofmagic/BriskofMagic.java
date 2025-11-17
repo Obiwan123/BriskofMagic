@@ -2,11 +2,13 @@ package com.igor.briskofmagic;
 
 import com.igor.briskofmagic.block.ModBlocks;
 import com.igor.briskofmagic.block.entity.ModBlockEntities;
+import com.igor.briskofmagic.effect.ModEffects;
 import com.igor.briskofmagic.enchantment.ModEnchantmentEffects;
 import com.igor.briskofmagic.item.ModCreativeModTabs;
 import com.igor.briskofmagic.item.ModItems;
 import com.igor.briskofmagic.loot.ModLootModifiers;
 import com.igor.briskofmagic.particle.ModParticles;
+import com.igor.briskofmagic.potion.ModPotions;
 import com.igor.briskofmagic.recipe.ModRecipes;
 import com.igor.briskofmagic.screen.ModMenuTypes;
 import com.igor.briskofmagic.sound.ModSounds;
@@ -53,6 +55,8 @@ public class BriskofMagic {
         ModMenuTypes.register(modEventBus);
         ModParticles.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
 
         // Register the item to a creative tab
